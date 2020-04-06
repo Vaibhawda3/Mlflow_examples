@@ -1,0 +1,7 @@
+name:linearsvc.py
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "spark-submit linearsvc.py"
